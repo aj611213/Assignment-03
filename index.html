@@ -79,7 +79,7 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <i class="fa-solid fa-magnifying-glass mr-10"></i>
+                    <div class="lg:block hidden"><i class="fa-solid fa-magnifying-glass mr-10"></i></div>
                     <a class="btn bg-btn-color text-white manrope-font">Get Ticket</a>
                 </div>
             </div>
@@ -121,7 +121,7 @@
 
             </div>
             <div class="max-w-lg bg-black h-48 text-white p-4 rounded-2xl mt-5 lg:absolute right-10 bottom-10">
-                <h2 class="text-2xl pb-4">Meet all the heroes from the field</h2>
+                <h2 class="lg:text-2xl text-xl pb-4">Meet all the heroes from the field</h2>
                 <p class="text-color">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
                     placerat dolor. Purus
                     urna in sit nullam proin. </p>
@@ -130,14 +130,14 @@
         <!--Banner Section Ends Here-->
 
         <!--Progress Section Start here-->
-        <section class="container mx-auto lg:my-24 my-5 p-2">
+        <section class="container mx-auto lg:my-10 my-5 p-2">
             <div class="text-center border-t-2 border-b-2 border-dashed py-10">
-                <h2 class="text-4xl font-bold">Professional Hockeys Club</h2>
+                <h2 class="lg:text-4xl text-2xl font-bold">Professional Hockeys Club</h2>
                 <p class="max-w-xl mx-auto mt-3 text-grey-color">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
 
-            <div class="my-12 flex flex-col lg:flex-row w-full">
+            <div class="flex flex-col lg:flex-row w-full py-10">
                 <div class="text-center p-2">
                     <h2 class="radial-progress text-2xl text-progress-btn-color font-bold" style="--value:87;"
                         role="progressbar">87%</h2>
@@ -147,18 +147,18 @@
                 </div>
                 <div class="text-center p-4">
                     <h2 class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</h2>
-                    <h2 class="py-2 manrope-font font-semibold text-black-color text-lg font-bold">Experienced Coach
+                    <h2 class="py-2 font-manrope-font font-semibold text-[#131318] text-lg font-bold ">Experienced Coach
                     </h2>
                     <p class="text-grey-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="text-center p-4">
                     <h2 class="radial-progress text-[#FFC72C]" style="--value:90;" role="progressbar">90%</h2>
-                    <h2 class="py-2 manrope-font font-semibold text-black-color text-lg font-bold">Senior Player</h2>
+                    <h2 class="py-2 font-manrope-font font-semibold text-black-color text-lg font-bold">Senior Player</h2>
                     <p class="text-grey-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div class="text-center p-4">
                     <h2 class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</h2>
-                    <h2 class="py-2 manrope-font font-semibold text-black-color text-lg font-bold">Training Ground</h2>
+                    <h2 class="py-2 font-manrope-font font-semibold text-black-color text-lg font-bold">Training Ground</h2>
                     <p class="text-grey-color">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
             </div>
@@ -166,56 +166,50 @@
         </section>
         <!--Progress Section Ends here-->
         <!--Programme Section Start Here-->
-        <section class="container mx-auto lg:my-24 p-2">
-            <div>
-                <div class="text-center border-t-2 border-b-2 border-dashed p-5">
-                    <h2 class="text-4xl font-bold">Program Sections</h2>
-                    <p class="max-w-xl mx-auto mt-3 text-grey-color">Dit amet consectetur. Condimentum
-                        dignissim adipiscing aliquam turpis placerat
-                        dolor. Purus urna in sit nullam proin. </p>
-                </div>
-                <div class="grid lg:grid-cols-2 gap-5 pt-5">
-                    <div class="bg-center bg-no-repeat bg-cover h-96 rounded-2xl"
-                        style="background-image: url(./Images/2.png);">
-                        <div class="p-5">
-                            <h2 class="text-2xl text-white font-bold lg:pt-40 pt-28">Junior Program</h2>
-                            <p class="text-white font-semibold py-5">Dolor sit amet consectetur. Ut urna diam quis
-                                sagittis.
-                                Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi
-                                nulla.
-                                Tortor congue sed et in.</p>
-                            <button class="btn">Register Now</button>
-                        </div>
+        <div class="container mx-auto p-2">
+            <div class="text-center border-t-2 border-b-2 border-dashed py-10 mb-5">
+                <h2 class="lg:text-4xl text-2xl font-bold">Program Sections</h2>
+                <p class="max-w-xl mx-auto mt-3 text-grey-color">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-5">
+                <div class="bg-center bg-no-repeat	bg-cover w-full lg:h-80 h-[250px] rounded-2xl"
+                    style="background-image: url(./Images/2.png);">
+                    <div class="p-5">
+                        <h2 class="text-2xl text-white font-bold lg:pt-16">Junior Program</h2>
+                        <p class="text-white font-semibold py-5 max-w-lg">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                            Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+                            Tortor congue sed et in.</p>
+                        <button class="bg-[#FF4240] text-white border-none p-3 rounded-xl font-semibold">Register Now!</button>
                     </div>
-
-                    <div class="bg-center bg-no-repeat	bg-cover h-96 rounded-2xl"
+                </div>
+                <div>
+                    <div class="bg-center bg-no-repeat	bg-cover lg:h-80 h-[250px] rounded-2xl"
                         style="background-image: url(./Images/3.png);">
                         <div class="p-5">
-                            <h2 class="text-2xl text-white font-bold lg:pt-40 pt-28">Teenager Program</h2>
-                            <p class="text-white font-semibold py-5">Dolor sit amet consectetur. Ut urna diam quis
-                                sagittis.
-                                Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi
-                                nulla.
+                            <h2 class="text-2xl text-white font-bold lg:pt-16">Teenager Program</h2>
+                            <p class="text-white font-semibold py-5 max-w-lg">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                                Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
                                 Tortor congue sed et in.</p>
-                            <button class="btn">Register Now</button>
-                        </div>
-                    </div>
-
-                    <div class="bg-center bg-no-repeat	bg-cover  h-[450px] rounded-2xl"
-                        style="background-image: url(./Images/4.png);">
-                        <div class="p-5">
-                            <h2 class="text-2xl text-white font-bold lg:pt-56 pt-44">Professional Program</h2>
-                            <p class="text-white font-semibold py-5">Dolor sit amet consectetur. Ut urna diam quis
-                                sagittis.
-                                Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi
-                                nulla.
-                                Tortor congue sed et in.</p>
-                            <button class="btn">Register Now</button>
+                            <button class="bg-[#FF4240] text-white border-none p-3 rounded-xl font-semibold">Register Now!</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="mt-5">
+                <div class="bg-center bg-no-repeat	bg-cover lg:h-[550px] h-[250px] rounded-2xl"
+                    style="background-image: url(./Images/4.png);">
+                    <div class="p-5">
+                        <h2 class="text-2xl text-white font-bold lg:pt-72">Professional Program</h2>
+                        <p class="text-white font-semibold py-5 max-w-lg">Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                            Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla.
+                            Tortor congue sed et in.</p>
+                        <button class="bg-[#FF4240] text-white border-none p-3 rounded-xl font-semibold">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Programme Section End Here-->
         <!--Our New Products Section Start Here-->
         <section class="container mx-auto lg:my-24 p-2">
             <div class="text-center border-t-2 border-b-2 border-dashed py-10">
@@ -225,8 +219,8 @@
                     nullam proin.</p>
             </div>
             <!--Product Card Section Start here-->
-            <div class="lg:flex gap-10 my-10 justify-between">
-                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px]">
+            <div class="lg:flex lg:gap-10 gap-5 justify-between">
+                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px] mt-5">
                     <div class="p-2">
                         <img class="w-96 lg:w-40" src="./Images/5.png" alt="">
                     </div>
@@ -241,12 +235,12 @@
                             <div>
                                 <h2 class="pr-5 text-xl font-bold">Price - $22.00</h2>
                             </div>
-                            <div><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
+                            <div class="font-medium"><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px]">
+                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px] mt-5">
                     <div class="p-2">
                         <img class="w-96 lg:w-40" src="./Images/6.png" alt="">
                     </div>
@@ -261,15 +255,15 @@
                             <div>
                                 <h2 class="pr-5 text-xl font-bold">Price - $22.00</h2>
                             </div>
-                            <div><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
+                            <div class="font-medium"><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--Product Box-2 Start Here-->
-            <div class="lg:flex gap-10 my-10 justify-between">
-                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px]">
+            <div class="lg:flex lg:gap-10 gap-5 justify-between">
+                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px] mt-5">
                     <div class="p-2">
                         <img class="w-96 lg:w-40" src="./Images/7.png" alt="">
                     </div>
@@ -284,12 +278,12 @@
                             <div>
                                 <h2 class="pr-5 text-xl font-bold">Price - $22.00</h2>
                             </div>
-                            <div><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
+                            <div class="font-medium"><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px]">
+                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px] mt-5">
                     <div class="p-2">
                         <img class="w-96 lg:w-40" src="./Images/8.png" alt="">
                     </div>
@@ -304,7 +298,7 @@
                             <div>
                                 <h2 class="pr-5 text-xl font-bold">Price - $22.00</h2>
                             </div>
-                            <div><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
+                            <div class="font-medium"><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
                             </div>
                         </div>
                     </div>
@@ -312,8 +306,8 @@
             </div>
             <!--Product Box-2 End Here-->
             <!--Product Box-3 Start Here-->
-            <div class="lg:flex gap-10 my-10 justify-between">
-                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px]">
+            <div class="lg:flex lg:gap-10 gap-5 justify-between">
+                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px] mt-5">
                     <div class="p-3">
                         <img class="w-96 lg:w-40" src="./Images/9.png" alt="">
                     </div>
@@ -328,12 +322,12 @@
                             <div>
                                 <h2 class="pr-5 text-xl font-bold">Price - $22.00</h2>
                             </div>
-                            <div><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
+                            <div class="font-medium"><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px]">
+                <div class="flex flex-col lg:flex-row lg:justify-start lg:items-center border rounded-2xl lg:w-[850px] mt-5">
                     <div class="p-3">
                         <img class="w-96 lg:w-40" src="./Images/10.png" alt="">
                     </div>
@@ -348,7 +342,7 @@
                             <div>
                                 <h2 class="pr-5 text-xl font-bold">Price - $22.00</h2>
                             </div>
-                            <div><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
+                            <div class="font-medium"><span class="pr-5"><i class="fa-solid fa-cart-plus pr-5"></i>Delivery Fee : Free</span>
                             </div>
                         </div>
                     </div>
@@ -362,7 +356,7 @@
         <!-- Client Section Start Here-->
         <section class="container mx-auto lg:mt-24 p-2">
             <div class="text-center border-t-2 border-b-2 border-dashed py-10">
-                <h2 class="text-4xl font-bold">Clients Question</h2>
+                <h2 class="lg:text-4xl text-xl font-bold">Clients Question</h2>
                 <p class="max-w-xl mx-auto mt-3 text-grey-color">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
@@ -438,13 +432,13 @@
 
         <!--Get In Touch Section Start Here-->
         <section class="container mx-auto lg:mb-24 p-2">
-            <div class="text-center border-t-2 border-b-2 border-dashed py-10">
-                <h2 class="text-4xl font-bold">Get In Touch</h2>
-                <p class="max-w-xl mx-auto mt-3 text-grey-color font-medium">Dit amet consectetur. Condimentum dignissim
+            <div class="text-center border-t-2 border-b-2 border-dashed py-5">
+                <h2 class="lg:text-4xl text-2xl font-bold">Get In Touch</h2>
+                <p class="max-w-xl mx-auto mt-3 text-grey-color font-medium font-manrope-font">Dit amet consectetur. Condimentum dignissim
                     adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            <div class="lg:flex gap-10 lg:my-24 flex-1 p-5">
+            <div class="lg:flex gap-10 lg:my-24 flex-1 p-2">
                 <div class="p-5 border rounded-xl">
                     <div class="lg:w-96 lg:h-56 bg-[#BCED6D1A] pt-10 pl-10 rounded-xl mb-5">
                         <img src="./Images/Group 1171275317.png" alt="">
@@ -515,7 +509,9 @@
                             <textarea class="border w-full lg:h-96 mt-3 mb-5 rounded-2xl p-5" name=""
                                 placeholder="Type Your Message" id="" cols="30" rows="10"></textarea>
                         </label>
-                        <button class="btn w-full bg-btn-color text-white">Send Message</button>
+                       <div class="mt-5">
+                            <button class="bg-[#FF4240] text-white border-none p-3 rounded-xl font-semibold w-full">Send Message</button>
+                       </div>
                     </div>
                 </div>
             </div>
@@ -537,24 +533,24 @@
         <!--Footer Section Start here-->
         <div>
             <footer class="footer p-10 bg-[#131318] text-white">
-                <div class="">
-                    <p class="text-2xl font-bold w-80 text-center">Get In Touch.</p>
-                    <p class="lg:w-96 text-center">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus
+                <div class="text-left">
+                    <p class="text-2xl font-bold w-80 lg:text-left text-center">Get In Touch.</p>
+                    <p class="lg:w-96 lg:text-left text-center">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus
                         urna in sit nullam proin.</p>
                     <div>
-                        <div class="w-80 text-center">
-                            <span><i class="fa-solid fa-envelope"></i></span>
+                        <div class="w-80 lg:text-left text-center">
+                            <span class="text-[#FF4240]"><i class="fa-solid fa-envelope"></i></span>
                             <span class="pl-3">hockeys@support.com</span>
                         </div>
-                        <div class="w-80 text-center">
-                            <span><i class="fa-solid fa-phone"></i></span>
+                        <div class="w-80 lg:text-left text-center">
+                            <span class="text-[#FF4240]"><i class="fa-solid fa-phone"></i></span>
                             <span class="pl-3">(+62) 123-321-543</span>
                         </div>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 justify-between lg:grid-cols-3 ">
+                <div class="grid grid-cols-2 text-center text-[#FFFFFF99] lg:grid-cols-3">
                     <div class="">
-                        <div class="text-xl font-bold pb-4"><a href="#">Company</a></div>
+                        <div class="text-xl font-bold pb-4 text-white"><a href="#">Company</a></div>
                         <div class="pb-4"><a href="#">About us</a></div>
                         <div class="pb-4"><a href="#">Leadership</a></div>
                         <div class="pb-4"><a href="#">Careers</a></div>
@@ -562,20 +558,19 @@
                         <div class="pb-4"><a href="#">Legal Notice</a></div>
                     </div>
                     <div class="ml-10">
-                        <div  class="text-xl font-bold pb-4"><a href="#">Company</a></div>
-                        <div  class="pb-4"><a href="#">About us</a></div>
-                        <div  class="pb-4"><a href="#">Leadership</a></div>
-                        <div  class="pb-4"><a href="#">Careers</a></div>
-                        <div  class="pb-4"><a href="#">News & Article</a></div>
-                        <div  class="pb-4"><a href="#">Legal Notice</a></div>
+                        <div  class="text-xl font-bold pb-4 text-white"><a href="#">Support</a></div>
+                        <div  class="pb-4"><a href="#">Help Center</a></div>
+                        <div  class="pb-4"><a href="#">FAQ</a></div>
+                        <div  class="pb-4"><a href="#">Ticket Support</a></div>
+                        <div  class="pb-4"><a href="#">Contact Us</a></div>
                     </div>
                     <div class="ml-28">
-                        <div  class="text-xl font-bold pb-4"><a href="#">Company</a></div>
-                        <div  class="pb-4"><a href="#">About us</a></div>
-                        <div  class="pb-4"><a href="#">Leadership</a></div>
-                        <div  class="pb-4"><a href="#">Careers</a></div>
-                        <div  class="pb-4"><a href="#">News & Article</a></div>
-                        <div  class="pb-4"><a href="#">Legal Notice</a></div>
+                        <div  class="text-xl font-bold pb-4 text-white"><a href="#">Services</a></div>
+                        <div  class="pb-4"><a href="#">Academy</a></div>
+                        <div  class="pb-4"><a href="#">Group Lesson</a></div>
+                        <div  class="pb-4"><a href="#">Private Lesson</a></div>
+                        <div  class="pb-4"><a href="#">Hockeys for kids</a></div>
+                        <div  class="pb-4"><a href="#">Hockeys for Adult</a></div>
                     </div>
                 </div>
                 
